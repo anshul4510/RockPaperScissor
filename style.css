@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Jersey+15&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Vinyl&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(195, 195, 195);
+}
+
+.title img {
+    width: 6em;
+    height: 6em;
+    margin-right: 30px;
+}
+
+.title {
+    padding: 20px;
+    width: 97%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(118, 182, 235);
+    margin-bottom: 30px;
+    border-bottom: 3px solid rgb(3, 3, 117);
+}
+
+/* rgb(73, 166, 241) */
+.title div {
+    text-align: center;
+    font-size: 70px;
+    font-family: Rubik Vinyl;
+    text-shadow: 2px 4px 3px rgb(2, 2, 184);
+}
+
+.choice {
+    width: 97%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon {
+    background-color: whitesmoke;
+    height: 150px;
+    width: 120px;
+    border-radius: 10%;
+}
+
+.buttonimg {
+    height: 6rem;
+    width: 6rem;
+    background-color: rgb(202, 217, 223);
+    border: 2.5px solid rgb(146, 145, 145);
+    border-radius: 5%;
+    padding: 2px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.comp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.points1 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: Kanit;
+}
+
+.points2 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: Kanit;
+}
+
+.name {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-family: Kanit;
+    font-weight: 800;
+    letter-spacing: 1px;
+
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        background-color: rgb(169, 248, 248);
+    }
+
+    50% {
+        background-color: rgb(47, 235, 172);
+    }
+}
+
+.result {
+    margin-top: 10px;
+    width: 97%;
+    height: 60px;
+    text-align: center;
+    font-size: 35px;
+    font-family: Kanit;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.button1 {
+    margin-top: 10px;
+    width: 97%;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(195, 195, 195);
+}
